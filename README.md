@@ -20,6 +20,23 @@ node <filename>.js
 
 
 
+We tested the API using a set of **encoded and special character queries** to evaluate response behavior.
+
+### **Characters Used as Queries**
+- **Alphabet:** `a-z`
+- **Numbers:** `0-9`
+- **Uppercase:** `A-Z`
+- **Special Characters:** `+ - . _ ~ *`
+
+### **Encoded Variants**
+- `%20` (Space)
+- `%2B` (+)
+- `%2D` (-)
+- `%2E` (.)
+- `%5F` (_)
+- `%7E` (~)
+
+These queries help determine whether the API correctly handles **special characters and encoded inputs**.
 
 
 ##  API Case Sensitivity Test (`checkCaseSensitivity.js`)
