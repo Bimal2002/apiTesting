@@ -1,4 +1,4 @@
-# API Exploration & Testing Suite
+# API Exploration & Testing 
 
 This repository contains scripts to test the behavior of an autocomplete API, including case sensitivity, rate limits, and query constraints.
 
